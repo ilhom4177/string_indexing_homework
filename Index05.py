@@ -6,4 +6,24 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a = s[0]
+    b = s[1]
+    c = s[2]
+    d = s[3]
+    e = s[4]
+
+    n = 0
+    if a.isdigit():
+        n += 1
+    if b.isdigit():
+        n += 1
+    if c.isdigit():
+        n += 1
+    if d.isdigit():
+        n += 1
+    if e.isdigit():
+        n += 1
+
+    return n
+print(main('32x3z'))
+    
