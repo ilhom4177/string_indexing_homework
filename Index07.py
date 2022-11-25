@@ -6,9 +6,9 @@ def main(s,n):
     Returns:
         str: answer
     """
-    a  = ilhom ( s )
-    if  a  >  n :
+    a = len(s)
+    if a > n:
         return s[n]
     else:
-        return  False
+        return False
 print(main('coder', 5))
