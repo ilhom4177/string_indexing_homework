@@ -8,9 +8,9 @@ def main(s):
         int: answer
     """
     
-    if s.count("*")>-1:
-        return s.count("*")
+    if s.count("*")!=0:
+        return s.index('*')
     else:
-        return False
-print(main('2444'))
+        return 'False'
+print(main('rhswb'))
         
