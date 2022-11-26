@@ -8,6 +8,9 @@ def main(s):
         int: answer
     """
     
-    return s.find('*')!=-1
-print(main('good'))
+    if s.count("*")>-1:
+        return s.count("*")
+    else:
+        return False
+print(main('2444'))
         
