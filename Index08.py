@@ -11,6 +11,6 @@ def main(s):
     if s.count("*")!=0:
         return s.index('*')
     else:
-        return 'False'
-print(main('rhswb'))
+        return s.count("*")!=0
+print(main('1345'))
         
