@@ -1,3 +1,4 @@
+import string
 def main(s):
     """
     A string of length five is given. Return the index of the "*" character, return False if not present.
@@ -6,5 +7,7 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    
+    return s.find('*')!=-1
+print(main('good'))
         
