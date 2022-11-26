@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    sum=0
+    if s.isdigit():
+        sum=sum+int(s[0])
+        sum=sum+int(s[1])
+        sum=sum+int(s[2])
+        sum=sum+int(s[3])
+        sum=sum+int(s[4])
+    return sum
+print(main('12340'))
